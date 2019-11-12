@@ -4,11 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:baselineAligned="false">
+    <View
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+<!--    <fragment
+        android:name="com.alexsykes.frags.MainActivity$ArticleListFragment"
+        android:id="@+id/list"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_weight="1"
+
+        />-->
+
+<!--    <fragment
+        android:name="com.alexsykes.frags.MainActivity$ArticleReaderFragment"
+        android:id="@+id/reader"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_weight="2"/>-->
 
 </LinearLayout>
