@@ -16,7 +16,8 @@ public class FragActivity extends AppCompatActivity {
 
 
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-        ft.replace(R.id.placeholder, new ScorePadFragment());
+        ft.replace(R.id.placeholder1, new ScorePadFragment());
+        // ft.replace(R.id.placeholder2, new TouchFragment());
         ft.commit();
     }
 }
